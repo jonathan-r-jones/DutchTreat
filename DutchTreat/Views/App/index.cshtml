@@ -1,15 +1,18 @@
-﻿<!DOCTYPE html>
+﻿@{ 
+    ViewBag.Title = "Home Page";
+}
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Old Title</title>
-    <link href="css/site.css" rel="stylesheet" />
+    <title>Dutch Treat: @ViewBag.Title</title>
+    <link href="~/css/site.css" rel="stylesheet" />
 </head>
 <body>
-    <h2>Old Dutch Treat HTML</h2>
+    <h2>@ViewBag.Title</h2>
     <p>Pennsylvania Dutch <strong>great</strong> merchandise. Read <a href="http://www.cnn.com">news here</a>.</p>
 
     <div class="product-info">
-        <img src="/img/stained_glass.jpg" />
+        <img src="~/img/stained_glass.jpg" />
         <h3>Mug</h3>
         <ul class="product-props">
             <li>Price: $9.99</li>
@@ -65,12 +68,12 @@
                 <label>Remember Me?</label>
             </div>
             <div>
-                <input type="submit" value="Login"/>
+                <input type="submit" value="Login" />
             </div>
         </form>
     </div>
 
-    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="js/index.js"></script>
+    <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/index.js"></script>
 </body>
 </html>
