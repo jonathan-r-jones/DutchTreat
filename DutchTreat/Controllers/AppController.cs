@@ -12,7 +12,16 @@ namespace DutchTreat.Controllers
     {
         public IActionResult Index()
         {
-            //throw new InvalidOperationException("Bad stuff happened.");
+            return View();
+        }
+        public IActionResult Contact()
+        {
+            ViewBag.Title = "Contact Us";
+            return View();
+        }
+        public IActionResult About()
+        {
+            ViewBag.Title = "About Us";
             return View();
         }
     }
