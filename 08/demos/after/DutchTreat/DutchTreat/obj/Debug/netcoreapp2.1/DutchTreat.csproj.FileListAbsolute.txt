@@ -1,0 +1,6 @@
+C:\Users\jonat\Documents\Dropbox\IT\DutchTreat\08\demos\after\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.csprojAssemblyReference.cache
+C:\Users\jonat\Documents\Dropbox\IT\DutchTreat\08\demos\after\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.csproj.CoreCompileInputs.cache
+C:\Users\jonat\Documents\Dropbox\IT\DutchTreat\08\demos\after\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.RazorAssemblyInfo.cache
+C:\Users\jonat\Documents\Dropbox\IT\DutchTreat\08\demos\after\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.RazorAssemblyInfo.cs
+C:\Users\jonat\Documents\Dropbox\IT\DutchTreat\08\demos\after\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.AssemblyInfoInputs.cache
+C:\Users\jonat\Documents\Dropbox\IT\DutchTreat\08\demos\after\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.AssemblyInfo.cs
