@@ -1,8 +1,0 @@
-{
-  "Colors": {
-    "favorite": "blue"
-  },
-  "ConnectionStrings": {
-    "DutchConnectionString": "server=(localdb)\\MSSQLLocalDB;Database=Fresnel;Integrated Security=true;MultipleActiveResultSets=true"
-  }
-}
