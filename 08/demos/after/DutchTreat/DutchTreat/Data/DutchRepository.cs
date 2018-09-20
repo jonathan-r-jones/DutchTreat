@@ -50,7 +50,7 @@ namespace DutchTreat.Data
         _logger.LogInformation("GetAllProducts was called");
 
         return _ctx.Products
-                   .OrderBy(p => p.Title)
+                   .OrderByDescending(p => p.Id) 
                    .ToList();
       }
       catch (Exception ex)
