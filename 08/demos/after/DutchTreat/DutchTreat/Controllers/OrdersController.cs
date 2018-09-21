@@ -62,14 +62,14 @@ namespace DutchTreat.Controllers
     }
 
     [HttpPost]
-    public IActionResult Post([FromBody]OrderViewModel model)
+    public IActionResult Post([FromBody]OrderViewModel orderViewModel)
     {
       // add it to the db
       try
       {
         if (ModelState.IsValid)
         {
-          var newOrder = _mapper.Map<OrderViewModel, Order>(model);
+          var newOrder = _mapper.Map<OrderViewModel, Order>(orderViewModel);
 
           if (newOrder.OrderDate == DateTime.MinValue)
           {
